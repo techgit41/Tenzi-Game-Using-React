@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #9aa0a6;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.App > Header> p{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333
+}
+
+main {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice-container {
+  margin: 1rem;
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr);
+  gap: 10px;
+  max-width: 400px
+}
+
+.dice-container button {
+  width: 100%;
+  aspect-ratio: 1;
+  min-height: 50px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  outline: hidden;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  touch-action: manipulation;
+  transition: background-color color 0.4s 30ms;
+}
+.dice-container button:hover {
+  background-color: #d2e3fc;
+}
+
+/* style for roll button */
+.roll-button {
+  background-color: #174ea6;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* style for restart game button */
+.restart-button {
+  background-color:  #0D652D;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.restart-button {
+  background-color: #34A853;
+}
