@@ -45,11 +45,11 @@ Repeat: Continue rolling until all 10 dice are the same number.
 Win: The game ends when you get Tenzi, and confetti will appear on the screen.
 # 🖼️ Screenshots
 1. starting game
-![starting game.](src/images/initial.png)
+# ![starting game.](src/images/initial.png)
 2. while playing game
-![starting game.](src/images/playing.png)
+# ![starting game.](src/images/playing.png)
 3. When winning the game
-![starting game.](src/images/winning.png)
+# ![starting game.](src/images/winning.png)
 
 
 # 🤝 Contributing
