@@ -43,13 +43,15 @@ Roll: Click the "Roll" button to roll all dice that are not held.
 Hold: Click on a die to hold its value. Held dice will not be re-rolled in the next turn.
 Repeat: Continue rolling until all 10 dice are the same number.
 Win: The game ends when you get Tenzi, and confetti will appear on the screen.
-# 🖼️ Screenshots
-1. starting game
+# 🖼️ Preview & Screenshots
+1. Game Preview
+# ![starting game.](src/images/preview.gif)
+2. starting game
 # ![starting game.](src/images/initial.png)
-2. while playing game
-# ![starting game.](src/images/playing.png)
-3. When winning the game
-# ![starting game.](src/images/winning.png)
+3. while playing game
+# ![During game.](src/images/playing.png)
+4. When winning the game
+# ![game ending.](src/images/winning.png)
 
 
 # 🤝 Contributing
