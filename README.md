@@ -4,9 +4,9 @@ A fun and interactive web-based version of the classic dice game, Tenzi, built w
 Roll the Dice: Click a button to roll all un-held dice.
 Hold and Un-hold: Strategically click individual dice to hold or un-hold them.
 Win Detection: The game automatically detects when you have matched all 10 dice and celebrates your victory.
-Confetti on Win: A celebratory confetti animation plays upon winning (if you implemented this).
-Roll Counter and Timer (Optional): Tracks the number of rolls and the time taken to complete the game.
-Best Score Tracking (Optional): Saves and displays your best time and lowest roll count using local storage.
+Confetti on Win: A celebratory confetti animation plays upon winning.
+Roll Counter and Timer : Tracks the number of rolls and the time taken to complete the game.
+Best Score Tracking: Saves and displays your best time and lowest roll count using local storage.
 # 💻 Technologies Used
 1. React: For building the user interface and managing game state.
 2. JavaScript: The core game logic is written in modern JavaScript.
